@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ImageComponent from './ImageComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* 이미지 컴포넌트를 사용하면서 text props를 전달하여 이미지 정보를 넘겨줍니다. */}
+      <ImageComponent text="This is an example of an image: <img src=1>" />
+      <ImageComponent text="Another image: <img src=2>" />
     </div>
   );
 }

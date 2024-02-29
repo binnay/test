@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "text": "This is an example of an image: ![image1](/Users/sungbin/Downloads/images/777.png)",
+      "description": "An example image"
+    },
+    {
+      "id": 2,
+      "text": "Another image: ![image2333](/Users/sungbin/Downloads/images/788.jpg)",
+      "description": "Another example image"
+    }
+  ]
